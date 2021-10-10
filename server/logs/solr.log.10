@@ -1,0 +1,51 @@
+2021-10-03 22:29:37.409 INFO  (main) [   ] o.e.j.u.log Logging initialized @597ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-03 22:29:37.502 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 1.8.0_301-b09
+2021-10-03 22:29:37.514 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/solr-8.9.0/server/contexts/] at interval 0
+2021-10-03 22:29:37.856 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-10-03 22:29:37.862 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-10-03 22:29:37.862 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-10-03 22:29:37.863 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-10-03 22:29:37.908 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-10-03 22:29:37.911 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.9.0
+2021-10-03 22:29:37.911 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-10-03 22:29:37.911 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\solr-8.9.0
+2021-10-03 22:29:37.911 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-10-03T22:29:37.911Z
+2021-10-03 22:29:37.915 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: C:\solr-8.9.0\server\solr
+2021-10-03 22:29:37.915 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\solr-8.9.0\server\solr\solr.xml
+2021-10-03 22:29:37.951 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@b0404f, but no JMX reporters were configured - adding default JMX reporter.
+2021-10-03 22:29:38.944 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-10-03 22:29:39.136 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@1e8b721[provider=null,keyStore=null,trustStore=null]
+2021-10-03 22:29:39.136 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@1e8b721[provider=null,keyStore=null,trustStore=null]
+2021-10-03 22:29:39.198 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@14d8fcf[provider=null,keyStore=null,trustStore=null]
+2021-10-03 22:29:39.198 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@14d8fcf[provider=null,keyStore=null,trustStore=null]
+2021-10-03 22:29:39.223 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-10-03 22:29:39.316 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-10-03 22:29:39.317 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-10-03 22:29:39.320 WARN  (main) [   ] o.a.s.D.o.a.s.h.a.MetricsCollectorHandler Solr loaded a deprecated plugin/analysis class [org.apache.solr.handler.admin.MetricsCollectorHandler]. Please consult documentation how to replace it accordingly.
+2021-10-03 22:29:39.351 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@b0404f
+2021-10-03 22:29:39.351 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@b0404f
+2021-10-03 22:29:39.355 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@b0404f
+2021-10-03 22:29:39.372 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\solr-8.9.0\server\solr
+2021-10-03 22:29:39.372 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [research_repository_items]
+2021-10-03 22:29:39.386 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.9.0
+2021-10-03 22:29:39.402 WARN  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2021-10-03 22:29:39.426 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.s.IndexSchema Schema name=default-config
+2021-10-03 22:29:39.564 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-10-03 22:29:39.634 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.c.CoreContainer Creating SolrCore 'research_repository_items' using configuration from instancedir C:\solr-8.9.0\server\solr\research_repository_items, trusted=true
+2021-10-03 22:29:39.649 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.research_repository_items' (registry 'solr.core.research_repository_items') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@b0404f
+2021-10-03 22:29:39.656 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.c.SolrCore [[research_repository_items] ] Opening new SolrCore at [C:\solr-8.9.0\server\solr\research_repository_items], dataDir=[C:\solr-8.9.0\server\solr\research_repository_items\data\]
+2021-10-03 22:29:39.720 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@1c7a252{/solr,file:///C:/solr-8.9.0/server/solr-webapp/webapp/,AVAILABLE}{C:\solr-8.9.0\server/solr-webapp/webapp}
+2021-10-03 22:29:39.730 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@a7bfbc{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-10-03 22:29:39.731 INFO  (main) [   ] o.e.j.s.Server Started @2920ms
+2021-10-03 22:29:39.954 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-10-03 22:29:39.954 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-10-03 22:29:39.966 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-10-03 22:29:39.966 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-10-03 22:29:40.090 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-8.9.0\server\solr\research_repository_items\conf
+2021-10-03 22:29:40.097 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-10-03 22:29:40.100 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2021-10-03 22:29:40.106 INFO  (coreLoadExecutor-13-thread-1) [   x:research_repository_items] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-10-03 22:29:40.114 INFO  (searcherExecutor-15-thread-1-processing-x:research_repository_items) [   x:research_repository_items] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-10-03 22:29:40.114 INFO  (searcherExecutor-15-thread-1-processing-x:research_repository_items) [   x:research_repository_items] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-10-03 22:29:40.118 INFO  (searcherExecutor-15-thread-1-processing-x:research_repository_items) [   x:research_repository_items] o.a.s.c.SolrCore [research_repository_items]  Registered new searcher autowarm time: 0 ms
+2021-10-03 22:29:40.212 INFO  (qtp5221320-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=29
